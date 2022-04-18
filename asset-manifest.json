@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nebo-nebo/static/css/main.043ecfeb.css",
+    "main.js": "/nebo-nebo/static/js/main.7a2708cf.js",
+    "index.html": "/nebo-nebo/index.html",
+    "main.043ecfeb.css.map": "/nebo-nebo/static/css/main.043ecfeb.css.map",
+    "main.7a2708cf.js.map": "/nebo-nebo/static/js/main.7a2708cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.043ecfeb.css",
+    "static/js/main.7a2708cf.js"
+  ]
+}
