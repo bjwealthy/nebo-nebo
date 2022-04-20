@@ -22,7 +22,7 @@ export class TenantItem extends React.Component {
           <b>Nepa</b>:  {nepa}<br></br>
           <b>Security</b>: {security}<br></br>
           <b>Lawma</b>: {lawma}<br></br>
-          <b>Movedout</b>: {moved}<br></br>
+          <b>Moved</b>: {moved}<br></br>
         </span>
       </li>
       

@@ -12,7 +12,6 @@ class TenantList extends React.Component{
                         tenants={this.props.tenants} 
                         handleChange={this.props.handleChange} 
                         deleteTenant={this.props.deleteTenant} 
-
                     />
                 ))} 
             </div>

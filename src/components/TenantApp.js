@@ -4,43 +4,44 @@ import Header from './Header'
 import TenantItem from './TenantItem'
 import AddTenant from './AddTenant'
 import {v4 as uuidv4} from 'uuid'
+import axios from 'axios'
 
 
 class TenantApp extends React.Component{
     state = {
         tenants: [
-            {
-                id: uuidv4(),
-                fullname: "Olusare Adegbagie",
-                nepa: '4000',
-                lawma: '300',
-                security: '200',
-                moved: true
-            },
-            {
-                id: uuidv4(),
-                fullname: "Olumowe Omogba A",
-                nepa: '4000',
-                lawma: '300',
-                security: '200',
-                moved: false
-            },
-            {
-                id: uuidv4(),
-                fullname: "Olusabi Omogba B",
-                nepa: '4000',
-                lawma: '300',
-                security: '200',
-                moved: false
-            },
-            {
-                id: uuidv4(),
-                fullname: "Olutry Omogba C",
-                nepa: '4000',
-                lawma: '300',
-                security: '200',
-                moved: false
-            },
+            // {
+            //     id: uuidv4(),
+            //     fullname: "Olusare Adegbagie",
+            //     nepa: '4000',
+            //     lawma: '300',
+            //     security: '200',
+            //     moved: true
+            // },
+            // {
+            //     id: uuidv4(),
+            //     fullname: "Olumowe Omogba A",
+            //     nepa: '4000',
+            //     lawma: '300',
+            //     security: '200',
+            //     moved: false
+            // },
+            // {
+            //     id: uuidv4(),
+            //     fullname: "Olusabi Omogba B",
+            //     nepa: '4000',
+            //     lawma: '300',
+            //     security: '200',
+            //     moved: false
+            // },
+            // {
+            //     id: uuidv4(),
+            //     fullname: "Olutry Omogba C",
+            //     nepa: '4000',
+            //     lawma: '300',
+            //     security: '200',
+            //     moved: false
+            // },
         ]
     }
 
@@ -78,6 +79,11 @@ class TenantApp extends React.Component{
             tenants: [...this.state.tenants, newTenant]
         })
     }
+
+    // componentDidMount(){
+    //     axios.get('https://jsonplaceholder.typicode.com/todos', {params: {_limit: 20}})
+    //     .then(response => this.setState({tenants: response.data}));
+    // }
 
     render(){ 
         return(
